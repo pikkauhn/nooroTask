@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1A1A1A;
+  --background-Top: #0D0D0D;
+  --foreground: #1E6F9F;
+  --blue: #4EA8DE;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Background {
+  background: var(--background-Top);
+  height: 12.5rem;
+  z-index: 0;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.Content-Container{
+  display: flex;
+  justify-content: center;  
+  height: 80vh;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  width: 46rem;
+}
